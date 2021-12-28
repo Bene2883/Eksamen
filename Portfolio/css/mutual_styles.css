@@ -1,0 +1,36 @@
+body {
+  background-color: #f8f5f0;
+}
+
+header {
+  background-color: #e1dbd0d6;
+  padding: 2%;
+  position: sticky;
+  top: 0px;
+}
+
+header nav ul {
+  display: flex;
+  margin: 0% auto;
+  list-style-type: none;
+  overflow-x: auto;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+}
+
+li {
+  display: inline-flex;
+  color: #fff6cc;
+}
+
+a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  background-color: #f8f5f0;
+  padding: 5%;
+  font-family: monospace;
+}
