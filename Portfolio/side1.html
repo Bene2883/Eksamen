@@ -6,47 +6,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/mutual_styles.css" />
     <link rel="stylesheet" href="css/side1.css" />
-    <title>Side 1</title>
+    <title>Projekter</title>
+    <link rel="icon" href="img/bh.svg" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="Index.html">FORSIDE</a></li>
-          <li><a href="side1.html">PROJEKTER</a></li>
-          <li><a href="side2.html">SIDE 2</a></li>
-          <li><a href="side3.html">SIDE 3</a></li>
-          <div id="splashbillede">
-            <img
-              src="img/portfolio1.png"
-              alt="splashbillede"
-              height="250"
-              width="400"
-            />
-          </div>
-        </ul>
+    <header class="menu_color">
+      <nav class="menu">
+        <a href="index.html">Forside</a>
+
+        <a href="side1.html">Projekter</a>
+
+        <a href="side3.html">Om mig</a>
+
+        <a href="https://linktr.ee/benediktehald">Kontakt</a>
       </nav>
+
+      <nav id="open" class="menu_knap">☰</nav>
+
+      <nav id="close" class="menu_knap hide">X</nav>
     </header>
+
     <main>
       <section id="first_section">
         <div class="img1">
-          <img src="img/1.jpg" alt="1" height="350" width="700" />
+          <img src="img/1.png" alt="1" />
+          <div class="overlay">
+            <div class="text">
+              <button onclick="window.location.href='side4.html'">
+                Klik her
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="tekst1">
+          <p>
+            I dette tema, havde vi introuge hvor vi blev præsenteret for skolen
+            og vores udannelse. Vi kom i en gruppe på seks mennesker, hvor vi
+            skulle lave en temavideo som skulle introducere os alle på hver sin
+            måde.
+          </p>
         </div>
         <div class="img2">
           <img src="img/2.jpg" alt="2" height="350" width="700" />
+          <div class="overlay">
+            <div class="text">
+              <button onclick="window.location.href='side5.html'">
+                Klik her
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="tekst2">
+          <p>
+            I dette tema arbejde vi med en ny gruppe på seks mennesker, hvor vi
+            fik en specifik stil vi skulle følge og deraf lave den første
+            hjemmeside udfra et tildelt wireframe.
+          </p>
         </div>
         <div class="img3">
-          <img src="img/3.jpg" alt="3" height="350" width="700" />
+          <img src="img/3.png" alt="3" height="350" width="700" />
+          <div class="overlay">
+            <div class="text">
+              <button onclick="window.location.href='side6.html'">
+                Klik her
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="tekst3">
+          <p>
+            Dette tema handler om konceptudvikling og ux (user experience), hvor
+            vi hver især fik til opgave at udvikle et koncept omkring t-shirts,
+            som vi så skulle lave hjemmeside til og derefter kører test på.
+            Under processen, skulle vi lave en prototype, layout-diagram,
+            analyse, test og wireframe, samt en storytelling og tage
+            productphotos.
+          </p>
         </div>
         <div class="img4">
           <img src="img/4.jpg" alt="4" height="350" width="700" />
+          <div class="overlay">
+            <div class="text">
+              <button onclick="window.location.href='side7.html'">
+                Klik her
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="tekst4">
+          <p>
+            Temaet du kan læse om her, handler om vores eget spil vi fik lov til
+            at designe og kode. Designet af spillet er lavet i illustrator. I
+            dette tema blev vi også præsenteret for Javascript for første gang.
+          </p>
         </div>
         <div class="img5">
-          <img src="img/5.jpg" alt="5" height="350" width="700" />
+          <img src="img/5.png" alt="5" height="350" width="700" />
+          <div class="overlay">
+            <div class="text">
+              <button onclick="window.location.href='side8.html'">
+                Klik her
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="tekst5">
+          <p>
+            I dette tema, skulle vi kontakte et firma med hjemmeside som vi
+            kunne redesigne. I forbindelse med redesignet skulle vi også lave en
+            tre til fem minutters video der afspejler firmaet på bedste vis, som
+            skulle kunne ses på hjemmeside. I processen af dette skulle vi kører
+            en test først, som handlede om en persons passion for noget hvor
+            videon måtte varer et minut.
+          </p>
         </div>
       </section>
     </main>
 
-    <footer>Benedikte Hald</footer>
+    <footer>
+      <section id="first_footer">
+        <div class="grid_1">
+          <h2>Benedikte Hald</h2>
+          <p>+45 23 71 07 64</p>
+          <p>Email: bene2883@stud.kea.dk</p>
+        </div>
+        <div class="grid_2">
+          <h3><a href="https://linktr.ee/benediktehald">Kontakt</a></h3>
+          <h3><a href="https://linktr.ee/benediktehald">Sociale Medier </a></h3>
+        </div>
+      </section>
+    </footer>
+    <script src="java/side1.js"></script>
   </body>
 </html>
