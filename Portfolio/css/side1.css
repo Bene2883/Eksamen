@@ -10,7 +10,7 @@ img {
     display: grid;
 
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
   img {
     background-size: cover;
@@ -73,6 +73,18 @@ img {
     padding: 10%;
     background-color: #faf5f2;
   }
+
+  .img6 {
+    grid-column: 2/3;
+    grid-row: 6/7;
+  }
+
+  .tekst6 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    padding: 10%;
+    background-color: #faf5f2;
+  }
 }
 
 .img1 {
@@ -93,6 +105,10 @@ img {
   width: 100%;
 }
 .img5 {
+  position: relative;
+  width: 100%;
+}
+.img6 {
   position: relative;
   width: 100%;
 }
@@ -131,6 +147,9 @@ img {
   transform: scale(1);
 }
 .img5:hover .overlay {
+  transform: scale(1);
+}
+.img6:hover .overlay {
   transform: scale(1);
 }
 
